@@ -1,0 +1,131 @@
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"packages/polymer/polymer.html\">.","line":1,"charStart":0,"charEnd":57}}]
+build.dart finished [1135 ms]
+
+---
+build.dart --machine --changed=web/index.html --removed=web/polymer_bank.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"packages/polymer/polymer.html\">.","line":1,"charStart":0,"charEnd":57}}]
+build.dart finished [1188 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1076 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1305 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html --removed=web/clickcounter.html
+[{"method":"error","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"polymer_bank\".","line":11,"charStart":264,"charEnd":308}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":21,"charStart":573,"charEnd":598}}]
+build failed with errors: {Transform polymer (Linter) on polymer_bank|web/index.html threw error: couldn't find imported asset "web/clickcounter.html" in package "polymer_bank".}
+build.dart finished [1059 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.dart --removed=web/clickcounter.dart
+[{"method":"error","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"polymer_bank\".","line":11,"charStart":264,"charEnd":308}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":21,"charStart":573,"charEnd":598}}]
+build failed with errors: {Transform polymer (Linter) on polymer_bank|web/index.html threw error: couldn't find imported asset "web/clickcounter.html" in package "polymer_bank".}
+build.dart finished [1106 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"bank-terminal\" not found.","line":21,"charStart":574,"charEnd":589}}]
+build.dart finished [1060 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.dart --changed=web/bank_terminal.html
+[{"method":"error","params":{"file":"web/bank_terminal.html","message":"Invalid name \"bank_terminal\". Custom element names must have at least one dash and can't be any of the following names: annotation-xml, color-profile, font-face, font-face-src, font-face-uri, font-face-format, font-face-name, missing-glyph.","line":1,"charStart":0,"charEnd":57}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"bank-terminal\" not found.","line":21,"charStart":574,"charEnd":589}}]
+build failed with errors: {Transform polymer (Linter) on polymer_bank|web/bank_terminal.html threw error: Invalid name "bank_terminal". Custom element names must have at least one dash and can't be any of the following names: annotation-xml, color-profile, font-face, font-face-src, font-face-uri, font-face-format, font-face-name, missing-glyph.}
+build.dart finished [1016 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1032 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1042 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1779 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1751 ms]
+
+---
+build.dart --machine --changed=polymer-bank/README.md
+
+build.dart finished [1057 ms]
+
+---
+build.dart --machine --removed=polymer-bank/README.md
+
+build.dart finished [1114 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1107 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1050 ms]
+
+---
+build.dart --machine --changed=lib/person.dart
+
+build.dart finished [1118 ms]
+
+---
+build.dart --machine --changed=lib/person.dart
+
+build.dart finished [1088 ms]
+
+---
+build.dart --machine --changed=lib/bank_terminal.dart
+
+build.dart finished [1127 ms]
+
+---
+build.dart --machine --changed=lib/bank_account.dart
+
+build.dart finished [1158 ms]
+
+---
+build.dart --machine --changed=lib/bank_account.dart
+
+build.dart finished [1043 ms]
+
+---
+build.dart --machine --changed=lib/bank_terminal.dart
+
+build.dart finished [1091 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.dart
+
+build.dart finished [1090 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.dart
+
+build.dart finished [1076 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.dart
+
+build.dart finished [1120 ms]
+
