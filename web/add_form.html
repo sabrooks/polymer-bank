@@ -77,24 +77,29 @@
       </tr>
       <tr>
         <td>Name</td>
-        <td><input id = "name" type = "text" class = "field" placeholder = "Enter Name" value = "{{bac.owner.name}}" required/>
+        <td><input id = "name" type = "text" class = "field" placeholder = "Enter Name" value = "{{newBac.owner.name}}" required/>
         </td>
       </tr>
       <tr>
         <td>Address</td>
-        <td><input id = "address" type = "text" class = "field" placeholder = "Enter Address" value = "{{bac.owner.address}}"/></td>
+        <td><input id = "address" type = "text" class = "field" placeholder = "Enter Address" value = "{{newBac.owner.address}}"/></td>
       </tr>
       <tr>
         <td>Email</td>
-        <td><input id = "email" type = "email" class = "field" placeholder = "Enter Email" value = "{{bac.owner.email}}" required/></td>
+        <td><input id = "email" type = "email" class = "field" placeholder = "Enter Email" value = "{{newBac.owner.email}}" required/></td>
       </tr>
       <tr> 
         <td>Birth Date</td>
-        <td><input id = "birth_date" type = "date"  class = "field" value = "{{bac.owner.birth_date}}" required/></td>
+        <td><input id = "birth_date" type = "date"  class = "field" value = "{{newBac.owner.birth_date}}" on-blur = "{{validateBirthDate}}" required/></td>
+      </tr>
+      <tr>
+        <td>
+        <span class = "error" hidden? = "{{birthDateErrorMessage}}">{{birthDateErrorMessage}}</span>
+        </td>
       </tr>
       <tr>
         <td>Gender</td>
-        <td><input type="text" class = "field" id="gender" list="sex" value = "{{bac.owner.gender}}" required/><br/>
+        <td><input type="text" class = "field" id="gender" list="sex" value = "{{newBac.owner.gender}}" required/><br/>
             <datalist id="sex">
                <option value="M">
                <option value="F">
@@ -107,19 +112,14 @@
           <tr>
               <td class="auto-style2">Number</td>
               <td>
-                  <input id="number" type="text" value = "{{bac.number}}" required placeholder="000-0000000-00"
+                  <input id="number" type="text" value = "{{newBac.number}}" required placeholder="000-0000000-00"
                    pattern="[0-9]{3}-[0-9]{7}-[0-9]{2}"/>
               </td>
           </tr>
           <tr>
-              <td class="auto-style2">Balance</td>
-              <td>
-                  <input id="balance" type="text" value = "{{bac.balance}}" class = "field" placeholder="0.0"/></td>
-          </tr>
-          <tr>
               <td class="auto-style2">Pin code</td>
               <td>
-                  <input id="pin_code" type="number" value = "{{bac.pin_code}}" min="1" max="999999" required/></td>
+                  <input id="pin_code" type="number" value = "{{newBac.pin_code}}" min="1" max="999999" required/></td>
           </tr>
            <tr>
               <td>
