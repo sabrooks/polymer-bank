@@ -129,3 +129,345 @@ build.dart --machine --changed=web/bank_terminal.dart
 
 build.dart finished [1120 ms]
 
+---
+build.dart --machine --changed=web/bank_terminal.html
+[{"method":"error","params":{"file":"web/bank_terminal.html","message":"couldn't find imported asset \"web/bank_account.html\" in package \"polymer_bank\".","line":2,"charStart":58,"charEnd":106}}]
+build failed with errors: {Transform polymer (Linter) on polymer_bank|web/bank_terminal.html threw error: couldn't find imported asset "web/bank_account.html" in package "polymer_bank".}
+build.dart finished [1057 ms]
+
+---
+build.dart --machine --changed=web/bank_account.html
+
+build.dart finished [1170 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1102 ms]
+
+---
+build.dart --machine --changed=web/bank_account.dart
+
+build.dart finished [1221 ms]
+
+---
+build.dart --machine --changed=web/bank_account.dart
+
+build.dart finished [1133 ms]
+
+---
+build.dart --machine --changed=web/add-form.html
+
+build.dart finished [1219 ms]
+
+---
+build.dart --machine --changed=web/add_form.dart
+
+build.dart finished [1182 ms]
+
+---
+build.dart --machine --changed=web/add_form.html --removed=web/add-form.html
+
+build.dart finished [1168 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1154 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":74,"charStart":1955,"charEnd":1978}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":75,"charStart":1987,"charEnd":2062}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":76,"charStart":2071,"charEnd":2082}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":77,"charStart":2089,"charEnd":2095}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":78,"charStart":2102,"charEnd":2123}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":79,"charStart":2132,"charEnd":2217}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":80,"charStart":2226,"charEnd":2237}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":81,"charStart":2244,"charEnd":2250}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":82,"charStart":2257,"charEnd":2278}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":83,"charStart":2287,"charEnd":2364}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":84,"charStart":2373,"charEnd":2384}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":85,"charStart":2391,"charEnd":2397}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":87,"charStart":2411,"charEnd":2432}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":88,"charStart":2441,"charEnd":2448}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":88,"charStart":2455,"charEnd":2463}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (select) in table context caused voodoo mode.","line":89,"charStart":2472,"charEnd":2507}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":94,"charStart":2636,"charEnd":2642}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":95,"charStart":2649,"charEnd":2654}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":96,"charStart":2663,"charEnd":2687}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":96,"charStart":2693,"charEnd":2702}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":97,"charStart":2711,"charEnd":2763}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":97,"charStart":2769,"charEnd":2778}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":98,"charStart":2785,"charEnd":2791}}]
+build.dart finished [1134 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":78,"charStart":2097,"charEnd":2103}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"End tag (div) seen too early. Expected other end tag.","line":78,"charStart":2097,"charEnd":2103}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":79,"charStart":2110,"charEnd":2131}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":80,"charStart":2140,"charEnd":2225}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":81,"charStart":2234,"charEnd":2245}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":82,"charStart":2252,"charEnd":2258}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":83,"charStart":2265,"charEnd":2286}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":84,"charStart":2295,"charEnd":2372}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":85,"charStart":2381,"charEnd":2392}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":86,"charStart":2399,"charEnd":2405}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":88,"charStart":2419,"charEnd":2440}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":89,"charStart":2449,"charEnd":2456}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":89,"charStart":2463,"charEnd":2471}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (select) in table context caused voodoo mode.","line":90,"charStart":2480,"charEnd":2515}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":95,"charStart":2644,"charEnd":2650}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":96,"charStart":2657,"charEnd":2662}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":97,"charStart":2671,"charEnd":2695}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":97,"charStart":2701,"charEnd":2710}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":98,"charStart":2719,"charEnd":2771}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":98,"charStart":2777,"charEnd":2786}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":99,"charStart":2793,"charEnd":2799}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":100,"charStart":2804,"charEnd":2811}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form). Ignored.","line":100,"charStart":2804,"charEnd":2811}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":101,"charStart":2814,"charEnd":2825}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template). Ignored.","line":101,"charStart":2814,"charEnd":2825}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element) in table context caused voodoo mode.","line":103,"charStart":2890,"charEnd":2908}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element). Ignored.","line":103,"charStart":2890,"charEnd":2908}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end of file. Expected table content.","line":74,"charStart":1955,"charEnd":1959}}]
+build.dart finished [1150 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":79,"charStart":2109,"charEnd":2130}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":80,"charStart":2139,"charEnd":2224}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":81,"charStart":2233,"charEnd":2244}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":82,"charStart":2251,"charEnd":2257}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":83,"charStart":2264,"charEnd":2285}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":84,"charStart":2294,"charEnd":2371}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":85,"charStart":2380,"charEnd":2391}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":86,"charStart":2398,"charEnd":2404}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":88,"charStart":2418,"charEnd":2439}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":89,"charStart":2448,"charEnd":2455}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":89,"charStart":2462,"charEnd":2470}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (select) in table context caused voodoo mode.","line":90,"charStart":2479,"charEnd":2514}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":95,"charStart":2643,"charEnd":2649}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":96,"charStart":2656,"charEnd":2661}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":97,"charStart":2670,"charEnd":2694}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":97,"charStart":2700,"charEnd":2709}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":98,"charStart":2718,"charEnd":2770}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":98,"charStart":2776,"charEnd":2785}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":99,"charStart":2792,"charEnd":2798}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":100,"charStart":2803,"charEnd":2810}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form). Ignored.","line":100,"charStart":2803,"charEnd":2810}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":101,"charStart":2813,"charEnd":2824}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template). Ignored.","line":101,"charStart":2813,"charEnd":2824}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element) in table context caused voodoo mode.","line":103,"charStart":2889,"charEnd":2907}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element). Ignored.","line":103,"charStart":2889,"charEnd":2907}}]
+[{"method":"warning","params":{"message":"Unexpected end of file. Expected table content."}}]
+build.dart finished [1131 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (input) in table context caused voodoo mode.","line":81,"charStart":2145,"charEnd":2228}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":83,"charStart":2247,"charEnd":2268}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":84,"charStart":2277,"charEnd":2354}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":85,"charStart":2363,"charEnd":2374}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":86,"charStart":2381,"charEnd":2387}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":88,"charStart":2401,"charEnd":2422}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":89,"charStart":2431,"charEnd":2438}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":89,"charStart":2445,"charEnd":2453}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (select) in table context caused voodoo mode.","line":90,"charStart":2462,"charEnd":2497}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":95,"charStart":2626,"charEnd":2632}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":96,"charStart":2639,"charEnd":2644}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":97,"charStart":2653,"charEnd":2677}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":97,"charStart":2683,"charEnd":2692}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":98,"charStart":2701,"charEnd":2753}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":98,"charStart":2759,"charEnd":2768}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":99,"charStart":2775,"charEnd":2781}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":100,"charStart":2786,"charEnd":2793}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form). Ignored.","line":100,"charStart":2786,"charEnd":2793}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":101,"charStart":2796,"charEnd":2807}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template). Ignored.","line":101,"charStart":2796,"charEnd":2807}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element) in table context caused voodoo mode.","line":103,"charStart":2872,"charEnd":2890}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element). Ignored.","line":103,"charStart":2872,"charEnd":2890}}]
+[{"method":"warning","params":{"message":"Unexpected end of file. Expected table content."}}]
+build.dart finished [1149 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":83,"charStart":2254,"charEnd":2275}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":84,"charStart":2284,"charEnd":2361}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":85,"charStart":2370,"charEnd":2381}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":86,"charStart":2388,"charEnd":2394}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":88,"charStart":2408,"charEnd":2429}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":89,"charStart":2438,"charEnd":2445}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":89,"charStart":2452,"charEnd":2460}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (select) in table context caused voodoo mode.","line":90,"charStart":2469,"charEnd":2504}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":95,"charStart":2633,"charEnd":2639}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":96,"charStart":2646,"charEnd":2651}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":97,"charStart":2660,"charEnd":2684}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":97,"charStart":2690,"charEnd":2699}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":98,"charStart":2708,"charEnd":2760}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":98,"charStart":2766,"charEnd":2775}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":99,"charStart":2782,"charEnd":2788}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":100,"charStart":2793,"charEnd":2800}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form). Ignored.","line":100,"charStart":2793,"charEnd":2800}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":101,"charStart":2803,"charEnd":2814}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template). Ignored.","line":101,"charStart":2803,"charEnd":2814}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element) in table context caused voodoo mode.","line":103,"charStart":2879,"charEnd":2897}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element). Ignored.","line":103,"charStart":2879,"charEnd":2897}}]
+[{"method":"warning","params":{"message":"Unexpected end of file. Expected table content."}}]
+build.dart finished [1156 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":88,"charStart":2408,"charEnd":2429}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":89,"charStart":2438,"charEnd":2445}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":89,"charStart":2452,"charEnd":2460}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (select) in table context caused voodoo mode.","line":90,"charStart":2469,"charEnd":2504}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":95,"charStart":2633,"charEnd":2639}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":96,"charStart":2646,"charEnd":2651}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":97,"charStart":2660,"charEnd":2684}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":97,"charStart":2690,"charEnd":2699}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":98,"charStart":2708,"charEnd":2760}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":98,"charStart":2766,"charEnd":2775}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":99,"charStart":2782,"charEnd":2788}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":100,"charStart":2793,"charEnd":2800}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form). Ignored.","line":100,"charStart":2793,"charEnd":2800}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":101,"charStart":2803,"charEnd":2814}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template). Ignored.","line":101,"charStart":2803,"charEnd":2814}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element) in table context caused voodoo mode.","line":103,"charStart":2879,"charEnd":2897}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element). Ignored.","line":103,"charStart":2879,"charEnd":2897}}]
+[{"method":"warning","params":{"message":"Unexpected end of file. Expected table content."}}]
+build.dart finished [1162 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":88,"charStart":2424,"charEnd":2445}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":89,"charStart":2454,"charEnd":2461}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":89,"charStart":2468,"charEnd":2476}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (select) in table context caused voodoo mode.","line":90,"charStart":2485,"charEnd":2520}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":95,"charStart":2649,"charEnd":2655}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":96,"charStart":2662,"charEnd":2667}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":97,"charStart":2676,"charEnd":2700}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":97,"charStart":2706,"charEnd":2715}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":98,"charStart":2724,"charEnd":2776}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":98,"charStart":2782,"charEnd":2791}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":99,"charStart":2798,"charEnd":2804}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":100,"charStart":2809,"charEnd":2816}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form). Ignored.","line":100,"charStart":2809,"charEnd":2816}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":101,"charStart":2819,"charEnd":2830}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template). Ignored.","line":101,"charStart":2819,"charEnd":2830}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element) in table context caused voodoo mode.","line":103,"charStart":2895,"charEnd":2913}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element). Ignored.","line":103,"charStart":2895,"charEnd":2913}}]
+[{"method":"warning","params":{"message":"Unexpected end of file. Expected table content."}}]
+build.dart finished [1137 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":88,"charStart":2539,"charEnd":2560}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":89,"charStart":2569,"charEnd":2576}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":89,"charStart":2583,"charEnd":2591}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (select) in table context caused voodoo mode.","line":90,"charStart":2600,"charEnd":2635}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":95,"charStart":2764,"charEnd":2770}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (div) in table context caused voodoo mode.","line":96,"charStart":2777,"charEnd":2782}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":97,"charStart":2791,"charEnd":2815}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":97,"charStart":2821,"charEnd":2830}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":98,"charStart":2839,"charEnd":2891}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":98,"charStart":2897,"charEnd":2906}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (div) in table context caused voodoo mode.","line":99,"charStart":2913,"charEnd":2919}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":100,"charStart":2924,"charEnd":2931}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (form). Ignored.","line":100,"charStart":2924,"charEnd":2931}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":101,"charStart":2934,"charEnd":2945}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (template). Ignored.","line":101,"charStart":2934,"charEnd":2945}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element) in table context caused voodoo mode.","line":103,"charStart":3010,"charEnd":3028}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end tag (polymer-element). Ignored.","line":103,"charStart":3010,"charEnd":3028}}]
+[{"method":"warning","params":{"message":"Unexpected end of file. Expected table content."}}]
+build.dart finished [1137 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected table cell start tag (td) in the table body phase.","line":91,"charStart":2699,"charEnd":2703}}]
+build.dart finished [1168 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected = in unquoted attribute","line":126,"charStart":3896,"charEnd":3928}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Dropped duplicate attribute on tag.","line":126,"charStart":3896,"charEnd":3940}}]
+build.dart finished [1169 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1148 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+[{"method":"error","params":{"file":"web/bank_terminal.html","message":"couldn't find imported asset \"web/add_account.html\" in package \"polymer_bank\".","line":2,"charStart":58,"charEnd":105}}]
+[{"method":"warning","params":{"file":"web/bank_terminal.html","message":"definition for Polymer element with tag name \"add-account\" not found.","line":16,"charStart":337,"charEnd":350}}]
+build failed with errors: {Transform polymer (Linter) on polymer_bank|web/bank_terminal.html threw error: couldn't find imported asset "web/add_account.html" in package "polymer_bank".}
+build.dart finished [1199 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+[{"method":"warning","params":{"file":"web/bank_terminal.html","message":"definition for Polymer element with tag name \"add-account\" not found.","line":16,"charStart":334,"charEnd":347}}]
+build.dart finished [1159 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1162 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1492 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1457 ms]
+
+---
+build.dart --machine --changed=web/add_form.html --changed=web/bank_terminal.dart
+
+build.dart finished [1140 ms]
+
+---
+build.dart --machine --changed=web/add_form.dart --changed=web/add_form.html
+
+build.dart finished [1191 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1482 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1412 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1509 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1151 ms]
+
+---
+build.dart --machine --changed=web/add_form.html --changed=web/bank_terminal.html --changed=web/index.html
+
+build.dart finished [1161 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1617 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1171 ms]
+
