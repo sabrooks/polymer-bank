@@ -7,8 +7,9 @@ import '../lib/bank_terminal.dart';
  * A Polymer click counter element.
  */
 @CustomTag('add-form')
-class BankAccount extends PolymerElement {
+class NewBankAccountFormElement extends PolymerElement {
+  @published BankAccount bac;
 
-  BankAccount.created() : super.created() {
+  NewBankAccountFormElement.created() : super.created() {
   }
 }
