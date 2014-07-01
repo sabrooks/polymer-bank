@@ -1,14 +1,12 @@
 part of bank_terminal;
 
-class Person {
+class Person extends Observable{
   // Person properties:
-  String _name, address, _email, _gender;
+  @observable String name;
+  @observable String address;
+  
+  String _name, _email, _gender;
   DateTime _date_birth;
-
-  String get name => _name;
-  set name(value) {
-    if (value != null && !value.isEmpty) _name = value;
-  }
 
   String get email => _email;
   set email(value) {
@@ -27,9 +25,7 @@ class Person {
   }
 
   // constructors:
-  Person(name) {
-    this.name = name;
-  }
+  Person([this.name = ""]);
 
   Person.complete(name, this.address, email, gender, date_birth) {
     this.name = name;

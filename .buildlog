@@ -471,3 +471,183 @@ build.dart --machine --changed=web/add_form.html
 
 build.dart finished [1171 ms]
 
+---
+build.dart --machine --full
+
+build.dart finished [1959 ms]
+
+---
+build.dart --machine --removed=README.md~
+
+build.dart finished [1192 ms]
+
+---
+build.dart --machine --changed=web/add_form.dart --changed=web/add_form.html
+
+build.dart finished [1619 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected character in comment found.","line":115,"charStart":3540,"charEnd":4161}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end of file in comment.","line":115,"charStart":3540,"charEnd":4180}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end of file. Expected table content.","line":114,"charStart":3484,"charEnd":3488}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected character in comment found.","line":115,"charStart":3540,"charEnd":4161}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end of file in comment.","line":115,"charStart":3540,"charEnd":4180}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end of file. Expected table content.","line":114,"charStart":3484,"charEnd":3488}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected character in comment found.","line":115,"charStart":3540,"charEnd":4161}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end of file in comment.","line":115,"charStart":3540,"charEnd":4180}}]
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Unexpected end of file. Expected table content.","line":114,"charStart":3484,"charEnd":3488}}]
+build.dart finished [1165 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1177 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1144 ms]
+
+---
+build.dart --machine --changed=web/account_list.html
+
+build.dart finished [1238 ms]
+
+---
+build.dart --machine --changed=web/account_list.dart
+
+build.dart finished [1262 ms]
+
+---
+build.dart --machine --changed=web/account_list.dart --changed=web/add_form.dart --changed=web/add_form.html
+
+build.dart finished [1160 ms]
+
+---
+build.dart --machine --changed=web/add_form.dart --changed=web/add_form.html
+
+build.dart finished [1762 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+[{"method":"warning","params":{"file":"web/add_form.html","message":"Event handler \"onblur\" will be interpreted as an inline JavaScript event handler. Use the form on-event-name=\"{{handlerName}}\" if you want a Dart handler that will automatically update the UI based on model changes.","line":93,"charStart":2732,"charEnd":2764}}]
+build.dart finished [1158 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1146 ms]
+
+---
+build.dart --machine --changed=web/add_form.html
+
+build.dart finished [1164 ms]
+
+---
+build.dart --machine --changed=web/add_form.dart
+
+build.dart finished [1162 ms]
+
+---
+build.dart --machine --changed=web/account_list.dart --changed=web/account_list.html --changed=web/add_form.dar...
+
+build.dart finished [2282 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1723 ms]
+
+---
+build.dart --machine --changed=web/add_person.dart
+
+build.dart finished [1172 ms]
+
+---
+build.dart --machine --changed=web/add_person.html
+
+build.dart finished [1166 ms]
+
+---
+build.dart --machine --changed=web/add_person.html
+
+build.dart finished [1246 ms]
+
+---
+build.dart --machine --changed=web/add_form.dart --changed=web/add_form.html
+
+build.dart finished [1210 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1223 ms]
+
+---
+build.dart --machine --changed=lib/person.dart
+
+build.dart finished [1159 ms]
+
+---
+build.dart --machine --changed=lib/bank_terminal.dart --changed=lib/person.dart
+
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --removed=web/add_person.html
+[{"method":"error","params":{"file":"web/bank_terminal.html","message":"couldn't find imported asset \"web/add_person.html\" in package \"polymer_bank\".","line":2,"charStart":39,"charEnd":85}}]
+[{"method":"warning","params":{"file":"web/bank_terminal.html","message":"definition for Polymer element with tag name \"add-person\" not found.","line":5,"charStart":115,"charEnd":127}}]
+build failed with errors: {Transform polymer (Linter) on polymer_bank|web/bank_terminal.html threw error: couldn't find imported asset "web/add_person.html" in package "polymer_bank".}
+build.dart finished [1137 ms]
+
+---
+build.dart --machine --changed=web/add_person.html
+[{"method":"warning","params":{"file":"web/bank_terminal.html","message":"definition for Polymer element with tag name \"add-person\" not found.","line":5,"charStart":115,"charEnd":127}}]
+build.dart finished [1267 ms]
+
+---
+build.dart --machine --changed=web/add_form.dart --changed=web/add_person.dart --changed=web/add_person.html
+
+build.dart finished [1198 ms]
+
+---
+build.dart --machine --changed=web/add_person.html
+
+build.dart finished [1234 ms]
+
+---
+build.dart --machine --changed=web/add_person.html
+
+build.dart finished [1185 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1187 ms]
+
+---
+build.dart --machine --changed=lib/person.dart --changed=web/add_person.dart
+
+build.dart finished [1449 ms]
+
+---
+build.dart --machine --changed=lib/person.dart
+
+build.dart finished [1492 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1909 ms]
+
+---
+build.dart --machine --changed=lib/person.dart --changed=web/add_person.dart --changed=web/bank_terminal.dart
+
+build.dart finished [1230 ms]
+
+---
+build.dart --machine --changed=web/bank_terminal.html
+
+build.dart finished [1959 ms]
+
