@@ -1,4 +1,5 @@
 <polymer-element name="add-person">
+<link rel = "import" href = "add_account.html">
   <template>
     <style>
       :host {
@@ -90,7 +91,7 @@
       </tr>
       <tr> 
         <td>Birth Date</td>
-        <td><input id = "birth_date" type = "date"  class = "field" value = "{{person.birth_date}}" on-blur = "{{validateBirthDate}}" required/></td>
+        <td><input id = "birth_date" type = "date"  class = "field" value = "{{person.date_birth}}" on-blur = "{{formValidateBirthDate}}" required/></td>
       </tr>
       <tr>
         <td>
@@ -107,7 +108,7 @@
          </tr>
        </table>
     </form>
-    
+    <add-account owner = "{{person}}"></add-account>
   </template>
 <script type ="application/dart" src="add_person.dart"></script>
 </polymer-element>

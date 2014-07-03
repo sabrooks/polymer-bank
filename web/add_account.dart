@@ -7,18 +7,18 @@ import '../lib/bank_terminal.dart';
 /**
  * A Polymer element to add a new bank account.
  */
-@CustomTag('add-form')
-class NewBankAccountFormElement extends PolymerElement {
-  @published BankAccount newBac;
-  final double ZERO_BALANCE = 0.0;
+@CustomTag('add-account')
+class NewBankAccount extends PolymerElement {
+  @published Person owner;
+  @published BankAccount bac;
   @observable String birthDateErrorMessage = '';
 
-  NewBankAccountFormElement.created() : super.created() {
-  }
+  NewBankAccount.created() : super.created() {}
+  
   
   bool validateBirthDate(){
     DateTime now = new DateTime.now();
-    if(newBac.owner.date_birth.isAfter(now)){
+    if(owner.new_account.owner.date_birth.isAfter(now)){
       birthDateErrorMessage = "Birth date must be before "
           "$toString(now).";
       return false;
